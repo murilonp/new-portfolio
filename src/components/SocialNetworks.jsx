@@ -10,7 +10,7 @@ import '../styles/components/socialnetworks.sass';
 const socialNetworks = [
   {
     name: 'linkedin',
-    link: 'https://www.linkedin.com/in/murilo-nascimento-473162205/',
+    link: 'https://www.linkedin.com/in/murilo-prado-473162205/',
     icon: <FaLinkedinIn />
   },
   { name: 'github', link: 'https://github.com/murilonp', icon: <FaGithub /> },
