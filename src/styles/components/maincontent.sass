@@ -31,3 +31,14 @@
   .btn
     @include mixins.btn()
     align-self: start
+
+@media (min-width:390px)
+  #main-content
+    padding: 0
+
+    section
+      padding: 1rem
+    
+    .btn
+      @include mixins.btn()
+      align-self: center
