@@ -6,7 +6,8 @@ import {
   DiJsBadge,
   DiNodejsSmall,
   DiMysql,
-  DiReact
+  DiReact,
+  DiGit
 } from 'react-icons/di';
 
 import { SiTypescript } from 'react-icons/si';
@@ -55,6 +56,12 @@ const technologies = [
     name: 'MySQL',
     description: 'Do básico ao avançado com 1 ano de experiência',
     icon: <DiMysql />
+  },
+  {
+    id: 'git',
+    name: 'Git',
+    description: 'Do básico ao avançado com 1 ano de experiência',
+    icon: <DiGit />
   }
 ];
 
