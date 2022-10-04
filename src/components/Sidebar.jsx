@@ -15,6 +15,7 @@ const Sidebar = () => {
         href="/src/Archive/Curriculo03.pdf"
         className="btn"
         download="Curriculo03.pdf"
+        type="application/pdf"
       >
         Download currículo
       </a>

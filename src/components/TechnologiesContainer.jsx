@@ -42,25 +42,25 @@ const technologies = [
   {
     id: 'react',
     name: 'React',
-    description: 'Do básico ao intermediário com 8 meses de estudos.',
+    description: 'Do básico ao intermediário(adquirindo experiência).',
     icon: <DiReact />
   },
   {
     id: 'node',
     name: 'Node.js',
-    description: 'Do básico ao intermediário com 8 meses de estudos.',
+    description: 'Do básico ao intermediário(adquirindo experiência).',
     icon: <DiNodejsSmall />
   },
   {
     id: 'mysql',
     name: 'MySQL',
-    description: 'Do básico ao avançado com 1 ano de experiência',
+    description: 'Do básico ao avançado com 1 ano de experiência.',
     icon: <DiMysql />
   },
   {
     id: 'git',
     name: 'Git',
-    description: 'Do básico ao avançado com 1 ano de experiência',
+    description: 'Do básico ao avançado com 1 ano de experiência.',
     icon: <DiGit />
   }
 ];
