@@ -12,7 +12,7 @@ const Sidebar = () => {
       <SocialNetworks />
       <InformationContainer />
       <a
-        href="./Archive/Curriculo03.pdf"
+        href="/Curriculo03.pdf"
         className="btn"
         download="Curriculo03.pdf"
         type="application/pdf"
