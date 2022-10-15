@@ -8,6 +8,8 @@
   padding: 3rem
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6)
 
+  animation: downtop 700ms  350ms backwards
+
   section
     display: flex
     flex-direction: column
@@ -32,7 +34,18 @@
     @include mixins.btn()
     align-self: start
 
-@media (max-width:414px)
+    &:hover
+      background: variables.$gradient-secondary
+
+@keyframes downtop
+  0%
+    opacity: 0
+    transform: translateX(-20px)  
+  100%
+    opacity: 1
+    transform: translateX(0)  
+
+@media (max-width: 414px)
   #main-content
     padding: 0
 

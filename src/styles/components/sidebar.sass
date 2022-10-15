@@ -13,11 +13,15 @@
   padding: 3rem 0
   box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.6)
 
+  animation: downtop 700ms  350ms backwards
+
   img
     max-width: 70%
     border-radius: variables.$container-border-radius
     position: absolute
     top: -3rem
+
+    animation: topdown 700ms  350ms backwards
 
   .title
     color: variables.$text-color-secondary
@@ -28,8 +32,41 @@
 
   .btn
     @include mixins.btn
+    
+    &:hover
+      background: variables.$gradient-secondary
 
-@media (max-width:414px)
+@keyframes downtop
+  0%
+    opacity: 0
+    transform: translateX(20px)
+  100%
+    opacity: 1
+    transform: translateX(0)
+
+@media (max-width: 1316px)
   #sidebar
     .title
       margin-top: 10rem
+      
+@media (max-width: 1018px)
+  #sidebar
+    img 
+      max-width: 30%
+    .title
+      margin-top: 15rem
+
+@media (max-width: 940px)
+  #sidebar
+    img 
+      max-width: 35%
+
+@media (max-width: 790px)
+  #sidebar
+    img 
+      max-width: 45%
+
+@media (max-width: 525px)
+  #sidebar
+    img 
+      max-width: 70%

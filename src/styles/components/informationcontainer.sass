@@ -29,6 +29,18 @@
       color: variables.$text-color
       font-weight: bold
 
+    p
+      a
+        color: variables.$text-color
+        font-weight: bold
+        transition: background 0.3s ease
+
+    p
+      a:hover
+        background: variables.$gradient
+        -webkit-background-clip: text
+        -webkit-text-fill-color: transparent
+
     svg
       background-color: variables.$bg-color-primary
       padding: .4rem
@@ -45,7 +57,20 @@
     #pin-icon
       color: #c17ceb
 
-@media (max-width:414px)
+@media (max-width: 1467px)
+  #information
+    .info-card
+      flex-direction: column
+    
+    div
+      display: flex
+      align-items: center
+      flex-direction: column
+      
+      p
+      font-size: 0.8rem
+
+@media (max-width: 1282px)
   #information
     .info-card
       flex-direction: column
@@ -55,5 +80,8 @@
       align-items: center
       flex-direction: column
 
-      p
-        font-size: 0.8rem
+@media (max-width: 1018px)
+  #information
+    .info-card
+      div
+        font-size: 1rem

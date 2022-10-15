@@ -41,7 +41,7 @@ const technologies = [
   },
   {
     id: 'react',
-    name: 'React',
+    name: 'React.js',
     description: 'Do básico ao intermediário(adquirindo experiência).',
     icon: <DiReact />
   },
